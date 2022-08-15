@@ -1,0 +1,8 @@
+It uses the generally the one thread pattern, where as it works in event loop
+understanding requests
+
+the request object is created by the node js for us when we executed the 
+
+headers are the metadata
+
+we can access some of the information from our request method such as headers, method ,url etc.
