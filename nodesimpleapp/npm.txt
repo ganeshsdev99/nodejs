@@ -1,0 +1,11 @@
+npm is node package manager
+npm init
+it will create the json file with different file format and data
+where as to run our own writeen script we need to use the npm run script name
+
+we can isntall the third party package susing the nodejs
+express
+body parser
+
+npm install nodemon --save-dev   //so bascially this will install the developer part only not into the production
+

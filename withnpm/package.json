@@ -1,0 +1,16 @@
+{
+  "name": "withnpm",
+  "version": "1.0.0",
+  "description": "\"created for testing\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-nm": "nodemon app.js"
+  },
+  "author": "GS",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
