@@ -1,0 +1,6 @@
+stream ->->-> fully parsed
+buffer is just like the bus which will include lot of the reqest part and when they are completed their working then they will be realeased to the bus stop in lay man lanuguage
+
+req.on() now in this method when we want to listne for the particualr event we will just add that event here and that will be stored in to the buffer
+
+req.on('data')

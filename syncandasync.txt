@@ -1,0 +1,30 @@
+when we write sync after the particular function name then we need to consider that the that line will be executed first and then after that other line will be executed as node js follows single thread pattern then it need to look into that part some imp functionality need to be executed as imp feature before it is run by 
+node js is always a event driven architecture
+asynchronous means it wont wait for other process to complete it
+
+single thread,
+event loop,
+blocking code,
+
+
+single javascript thread is been utilised 
+single thread is able to handle the multiple response
+
+
+event loop is automatically started by nidejs when we create the nodejs application
+this is responsible for calling event handlebacks
+handles only the which can be finished faster 
+
+
+long taking operation is taken up by the worker pool
+do heavy lifting
+detached from the code
+multi threading background
+
+
+event loop:
+is set by the nodejs which keep running in background until we give command of stop the process
+it checks the time
+it checks the pending callback
+
+get into poll event where it expects the call backs from various other part or we can say it is ready to accept the new iput from the user
