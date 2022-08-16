@@ -1,0 +1,8 @@
+what is expressjs
+express js help us to focus on the business logic not just on the focusing on what need to be parsed and need to be converted so it makes developer life easy he can create the business logic
+
+framework: Helper functions, tools& rules that helps to build the application
+
+express is all about middleware
+
+req->middleware->middleware->response
